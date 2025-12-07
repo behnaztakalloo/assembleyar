@@ -1,0 +1,261 @@
+.user{
+  right: 100;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #ffff;
+  right: 170px;
+}
+.text span:first-child{
+  margin-left: 20px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #130024;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.profile-pic{
+  position: absolute;
+  top: 3px;
+  right: -1270px;
+}
+.profile-pic img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+.new-text{
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  top: 6px;
+  right: 140px;
+}
+.new-text1{
+ position: absolute;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  top: 80px;
+  right: 150px;
+}
+.new-text2{
+  position: absolute;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  top: 80px;
+  right: 400px;
+}
+.new-text3{
+  position: absolute;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  top: 80px;
+  right: 650px;
+}
+.new-text4{
+  position: absolute;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  top: 80px;
+  right: 900px;
+}
+.new-text5{
+   position: absolute;
+  font-size: 25px;
+  color: #f21021;
+  margin-top: 20px;
+  text-align: center;
+  top: 60px;
+  right: 1150px;
+}
+.blue-line{
+  position: absolute;
+  border: none;
+  height: 4px;
+  display: block;
+  background-color: #0C8DFF;
+  width: 100%;
+  margin: 130px 0;
+}
+.picture1{
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  width: 60px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.text2{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #ffff;
+  right: 170px;
+  bottom: 470px;
+  left: 400px;
+}
+.my-button {
+  position: absolute;
+  width: 350px;            
+  height: 40px;             
+  border-radius: 0;       
+  border: none;             
+  background-color: #0C8DFF;
+  color: #fff;             
+  font-size: 16px;       
+  cursor: pointer;        
+  margin: 90px 150px;        
+  display: block;           
+  transition: 0.3s;         
+}
+
+.my-button:hover {
+  background-color: #005bb5; 
+}
+.pic3{
+  position: absolute;
+  margin: 150px 200px ;
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+  object-fit: cover;
+}
+.pic4{
+  position: absolute;
+  margin: 200px 200px ;
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+  object-fit: cover;
+}
+.text6{
+  position: absolute;
+  font-size: 25px;
+  color: #fff;
+  margin: 290px 200px;
+  left: 250px;
+}
+.text7{
+  position: absolute;
+  font-size: 25px;
+  color: #fff;
+  margin: 380px 200px;
+  left: 200px;
+}
+.text8{
+  position: absolute;
+  font-size: 12px;
+  color: #fff;
+  bottom: 20px;
+  left: 1200px;
+}
+.download {
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background-color: #788cce; 
+  color: red;               
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 520px 800px;
+  display: block;
+  transition: 0.3s;
+}
+.white-box {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.white-input {
+  position: absolute;
+  width: 20%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  right: 200px;
+  bottom: 480px;
+  left: 680px;
+}
+
+.check-button {
+  position: absolute;
+  width: 20%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0C8DFF;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  right: 170px;
+  bottom: 420px;
+  left: 600px;
+}
+
+.check-result {
+  position: absolute;
+  left: 89px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #d80b0b;
+  right: 100px;
+  bottom: 380px;
+}
+.text9{
+  position: absolute;
+  font-size: 25px;
+  color: #fff;
+  bottom: 480px;
+  left: 400px;
+}
